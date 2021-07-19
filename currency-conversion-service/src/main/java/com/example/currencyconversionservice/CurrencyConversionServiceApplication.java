@@ -9,8 +9,7 @@ import org.springframework.context.annotation.Bean;
 import brave.sampler.Sampler;
 
 @SpringBootApplication
-@EnableFeignClients("com.example.currencyconversionservice")
-@EnableDiscoveryClient
+@EnableFeignClients
 public class CurrencyConversionServiceApplication {
 
 	public static void main(String[] args) {
